@@ -11,6 +11,7 @@ p
 	font-weight: 300;
 	color: #111;
 }
+
 .banner
 {
 	position: relative;
@@ -67,6 +68,12 @@ header
 	align-items: center;
 	transition: 0.5s;
 }
+header.sticky
+{
+	background: #fff;
+	padding: 10px 100px;
+	box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
 header .logo
 {
 	color: #fff;
@@ -74,11 +81,51 @@ header .logo
 	font-size: 2em;
 	text-decoration: none;
 }
+header.sticky .logo
+{
+  color: #111;
+}
 header .logo span
 {
 	color: #ff0157;
 }
+header .navigation
+{
+	position: relative;
+	display: flex;
+}
 header .navigation li
 {
 	list-style: none;
+	margin-left: 30px;
+}
+header .navigation li a
+{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 300;
+}
+header .navigation li a 
+{
+	color: #111;
+}
+header .navigation li a:hover
+{
+	color: #ff0157;
+}
+section
+{
+	padding: 100px;
+}
+.row
+{
+	position: relative;
+	width: 100%;
+	display:flex;
+	justify-content: space-between;
+}
+.row .col50
+{
+	position: relative;
+	width: 48%;
 }
