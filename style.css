@@ -378,5 +378,15 @@ section
 		height: 40px;
 		background: url(menu.png);
 		background-size: 30px;
+		background-repeat: no-repeat;
+		background-position: center;
+		cursor: pointer;
 	}
+  .menuToggle .active
+  {
+  	background: url(close.png);
+		background-size: 25px;
+		background-repeat: no-repeat;
+		background-position: center;
+  }
 }
